@@ -8,8 +8,8 @@ const magnets=all('.magnetic'), services=all('details.service');
 let enabled=!reduced.matches, explicit=false, raf=0, active=null;const pointer={x:0,y:0};
 const clamp=(v,a=0,b=1)=>Math.max(a,Math.min(b,v));const ease=v=>v*v*(3-2*v);const prop=(el,k,v)=>el?.style.setProperty(k,v);
 q('#year').textContent=new Date().getFullYear();
-all('[data-whatsapp]').forEach(a=>a.href='https://wa.me/5599981674029?text='+encodeURIComponent('Olá, Davi! Vim pelo seu site e quero conversar sobre um projeto.'));
-all('[data-service]').forEach(a=>a.href='https://wa.me/5599981674029?text='+encodeURIComponent('Olá, Davi! Tenho interesse em '+a.dataset.service+'. Podemos conversar?'));
+all('[data-whatsapp]').forEach(a=>a.href='https://wa.me/5599996510214?text='+encodeURIComponent('Olá, Davi! Vim pelo seu site e quero conversar sobre um projeto.'));
+all('[data-service]').forEach(a=>a.href='https://wa.me/5599996510214?text='+encodeURIComponent('Olá, Davi! Tenho interesse em '+a.dataset.service+'. Podemos conversar?'));
 all('[data-split]').forEach(el=>{
  const label=el.textContent;el.setAttribute('aria-label',label);el.textContent='';let i=0;
  label.split(/(\s+)/).forEach(token=>{
